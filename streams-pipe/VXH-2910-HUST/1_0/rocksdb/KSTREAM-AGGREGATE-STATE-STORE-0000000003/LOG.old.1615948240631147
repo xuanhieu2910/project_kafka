@@ -1,0 +1,292 @@
+2021/03/17-09:25:13.085604 c64 RocksDB version: 5.18.4
+2021/03/17-09:25:13.085715 c64 Git sha rocksdb_build_git_sha:@b9a4a10659969c71e6f6eab4e4bae8c36ede919f@
+2021/03/17-09:25:13.085738 c64 Compile date Mar 11 2020
+2021/03/17-09:25:13.085756 c64 DB SUMMARY
+2021/03/17-09:25:13.085926 c64 CURRENT file:  CURRENT
+2021/03/17-09:25:13.085946 c64 IDENTITY file:  IDENTITY
+2021/03/17-09:25:13.086004 c64 MANIFEST file:  MANIFEST-000001 size: 13 Bytes
+2021/03/17-09:25:13.086026 c64 SST files in C:\Users\XUAN HIEU\Desktop\kafka_project_4\streams-pipe\VXH-2910-HUST\1_0\rocksdb\KSTREAM-AGGREGATE-STATE-STORE-0000000003 dir, Total Num: 0, files: 
+2021/03/17-09:25:13.086075 c64 Write Ahead Log file in C:\Users\XUAN HIEU\Desktop\kafka_project_4\streams-pipe\VXH-2910-HUST\1_0\rocksdb\KSTREAM-AGGREGATE-STATE-STORE-0000000003: 000003.log size: 0 ; 
+2021/03/17-09:25:13.086309 c64                         Options.error_if_exists: 0
+2021/03/17-09:25:13.086320 c64                       Options.create_if_missing: 1
+2021/03/17-09:25:13.086325 c64                         Options.paranoid_checks: 1
+2021/03/17-09:25:13.086331 c64                                     Options.env: 0000000000860230
+2021/03/17-09:25:13.086336 c64                                Options.info_log: 0000000022205560
+2021/03/17-09:25:13.086360 c64                Options.max_file_opening_threads: 16
+2021/03/17-09:25:13.086366 c64                              Options.statistics: 0000000000000000
+2021/03/17-09:25:13.086371 c64                               Options.use_fsync: 0
+2021/03/17-09:25:13.086376 c64                       Options.max_log_file_size: 0
+2021/03/17-09:25:13.086381 c64                  Options.max_manifest_file_size: 1073741824
+2021/03/17-09:25:13.086387 c64                   Options.log_file_time_to_roll: 0
+2021/03/17-09:25:13.086392 c64                       Options.keep_log_file_num: 1000
+2021/03/17-09:25:13.086397 c64                    Options.recycle_log_file_num: 0
+2021/03/17-09:25:13.086402 c64                         Options.allow_fallocate: 1
+2021/03/17-09:25:13.086407 c64                        Options.allow_mmap_reads: 0
+2021/03/17-09:25:13.086429 c64                       Options.allow_mmap_writes: 0
+2021/03/17-09:25:13.086434 c64                        Options.use_direct_reads: 0
+2021/03/17-09:25:13.086439 c64                        Options.use_direct_io_for_flush_and_compaction: 0
+2021/03/17-09:25:13.086444 c64          Options.create_missing_column_families: 0
+2021/03/17-09:25:13.086449 c64                              Options.db_log_dir: 
+2021/03/17-09:25:13.086454 c64                                 Options.wal_dir: C:\Users\XUAN HIEU\Desktop\kafka_project_4\streams-pipe\VXH-2910-HUST\1_0\rocksdb\KSTREAM-AGGREGATE-STATE-STORE-0000000003
+2021/03/17-09:25:13.086459 c64                Options.table_cache_numshardbits: 6
+2021/03/17-09:25:13.086464 c64                      Options.max_subcompactions: 1
+2021/03/17-09:25:13.086469 c64                  Options.max_background_flushes: -1
+2021/03/17-09:25:13.086474 c64                         Options.WAL_ttl_seconds: 0
+2021/03/17-09:25:13.086479 c64                       Options.WAL_size_limit_MB: 0
+2021/03/17-09:25:13.086484 c64             Options.manifest_preallocation_size: 4194304
+2021/03/17-09:25:13.086490 c64                     Options.is_fd_close_on_exec: 1
+2021/03/17-09:25:13.086494 c64                   Options.advise_random_on_open: 1
+2021/03/17-09:25:13.086499 c64                    Options.db_write_buffer_size: 0
+2021/03/17-09:25:13.086505 c64                    Options.write_buffer_manager: 0000000022230B40
+2021/03/17-09:25:13.086510 c64         Options.access_hint_on_compaction_start: 1
+2021/03/17-09:25:13.086515 c64  Options.new_table_reader_for_compaction_inputs: 0
+2021/03/17-09:25:13.086520 c64           Options.random_access_max_buffer_size: 1048576
+2021/03/17-09:25:13.086525 c64                      Options.use_adaptive_mutex: 0
+2021/03/17-09:25:13.086530 c64                            Options.rate_limiter: 0000000000000000
+2021/03/17-09:25:13.086535 c64     Options.sst_file_manager.rate_bytes_per_sec: 0
+2021/03/17-09:25:13.086570 c64                       Options.wal_recovery_mode: 2
+2021/03/17-09:25:13.086578 c64                  Options.enable_thread_tracking: 0
+2021/03/17-09:25:13.086583 c64                  Options.enable_pipelined_write: 0
+2021/03/17-09:25:13.086588 c64         Options.allow_concurrent_memtable_write: 1
+2021/03/17-09:25:13.086593 c64      Options.enable_write_thread_adaptive_yield: 1
+2021/03/17-09:25:13.086598 c64             Options.write_thread_max_yield_usec: 100
+2021/03/17-09:25:13.086603 c64            Options.write_thread_slow_yield_usec: 3
+2021/03/17-09:25:13.086608 c64                               Options.row_cache: None
+2021/03/17-09:25:13.086613 c64                              Options.wal_filter: None
+2021/03/17-09:25:13.086618 c64             Options.avoid_flush_during_recovery: 0
+2021/03/17-09:25:13.086623 c64             Options.allow_ingest_behind: 0
+2021/03/17-09:25:13.086628 c64             Options.preserve_deletes: 0
+2021/03/17-09:25:13.086633 c64             Options.two_write_queues: 0
+2021/03/17-09:25:13.086638 c64             Options.manual_wal_flush: 0
+2021/03/17-09:25:13.086643 c64             Options.max_background_jobs: 8
+2021/03/17-09:25:13.086648 c64             Options.max_background_compactions: -1
+2021/03/17-09:25:13.086653 c64             Options.avoid_flush_during_shutdown: 0
+2021/03/17-09:25:13.086657 c64           Options.writable_file_max_buffer_size: 1048576
+2021/03/17-09:25:13.086662 c64             Options.delayed_write_rate : 16777216
+2021/03/17-09:25:13.086667 c64             Options.max_total_wal_size: 0
+2021/03/17-09:25:13.086672 c64             Options.delete_obsolete_files_period_micros: 21600000000
+2021/03/17-09:25:13.086677 c64                   Options.stats_dump_period_sec: 600
+2021/03/17-09:25:13.086683 c64                          Options.max_open_files: -1
+2021/03/17-09:25:13.086688 c64                          Options.bytes_per_sync: 0
+2021/03/17-09:25:13.086692 c64                      Options.wal_bytes_per_sync: 0
+2021/03/17-09:25:13.086697 c64       Options.compaction_readahead_size: 0
+2021/03/17-09:25:13.086703 c64 Compression algorithms supported:
+2021/03/17-09:25:13.086708 c64 	kZSTD supported: 1
+2021/03/17-09:25:13.086713 c64 	kSnappyCompression supported: 1
+2021/03/17-09:25:13.086718 c64 	kBZip2Compression supported: 0
+2021/03/17-09:25:13.086723 c64 	kZlibCompression supported: 1
+2021/03/17-09:25:13.086728 c64 	kLZ4Compression supported: 1
+2021/03/17-09:25:13.086733 c64 	kXpressCompression supported: 0
+2021/03/17-09:25:13.086738 c64 	kLZ4HCCompression supported: 1
+2021/03/17-09:25:13.086743 c64 	kZSTDNotFinalCompression supported: 1
+2021/03/17-09:25:13.086753 c64 Fast CRC32 supported: Supported on x86
+2021/03/17-09:25:13.087471 c64               Options.comparator: leveldb.BytewiseComparator
+2021/03/17-09:25:13.087481 c64           Options.merge_operator: None
+2021/03/17-09:25:13.087487 c64        Options.compaction_filter: None
+2021/03/17-09:25:13.087492 c64        Options.compaction_filter_factory: None
+2021/03/17-09:25:13.087497 c64         Options.memtable_factory: SkipListFactory
+2021/03/17-09:25:13.087502 c64            Options.table_factory: BlockBasedTable
+2021/03/17-09:25:13.087537 c64            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000000000082C690)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000000000847F60
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 52428800
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 0
+  enable_index_compression: 1
+  block_align: 0
+2021/03/17-09:25:13.087572 c64        Options.write_buffer_size: 16777216
+2021/03/17-09:25:13.087579 c64  Options.max_write_buffer_number: 3
+2021/03/17-09:25:13.087585 c64          Options.compression: NoCompression
+2021/03/17-09:25:13.087590 c64                  Options.bottommost_compression: Disabled
+2021/03/17-09:25:13.087595 c64       Options.prefix_extractor: nullptr
+2021/03/17-09:25:13.087600 c64   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2021/03/17-09:25:13.087605 c64             Options.num_levels: 7
+2021/03/17-09:25:13.087610 c64        Options.min_write_buffer_number_to_merge: 1
+2021/03/17-09:25:13.087615 c64     Options.max_write_buffer_number_to_maintain: 0
+2021/03/17-09:25:13.087621 c64            Options.bottommost_compression_opts.window_bits: -14
+2021/03/17-09:25:13.087626 c64                  Options.bottommost_compression_opts.level: 32767
+2021/03/17-09:25:13.087631 c64               Options.bottommost_compression_opts.strategy: 0
+2021/03/17-09:25:13.087636 c64         Options.bottommost_compression_opts.max_dict_bytes: 0
+2021/03/17-09:25:13.087641 c64         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2021/03/17-09:25:13.087646 c64                  Options.bottommost_compression_opts.enabled: false
+2021/03/17-09:25:13.087651 c64            Options.compression_opts.window_bits: -14
+2021/03/17-09:25:13.087656 c64                  Options.compression_opts.level: 32767
+2021/03/17-09:25:13.087661 c64               Options.compression_opts.strategy: 0
+2021/03/17-09:25:13.087666 c64         Options.compression_opts.max_dict_bytes: 0
+2021/03/17-09:25:13.087671 c64         Options.compression_opts.zstd_max_train_bytes: 0
+2021/03/17-09:25:13.087676 c64                  Options.compression_opts.enabled: false
+2021/03/17-09:25:13.087681 c64      Options.level0_file_num_compaction_trigger: 4
+2021/03/17-09:25:13.087686 c64          Options.level0_slowdown_writes_trigger: 20
+2021/03/17-09:25:13.087691 c64              Options.level0_stop_writes_trigger: 36
+2021/03/17-09:25:13.087696 c64                   Options.target_file_size_base: 67108864
+2021/03/17-09:25:13.087701 c64             Options.target_file_size_multiplier: 1
+2021/03/17-09:25:13.087706 c64                Options.max_bytes_for_level_base: 268435456
+2021/03/17-09:25:13.087711 c64 Options.level_compaction_dynamic_level_bytes: 0
+2021/03/17-09:25:13.087716 c64          Options.max_bytes_for_level_multiplier: 10.000000
+2021/03/17-09:25:13.087723 c64 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2021/03/17-09:25:13.087728 c64 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2021/03/17-09:25:13.087733 c64 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2021/03/17-09:25:13.087738 c64 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2021/03/17-09:25:13.087743 c64 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2021/03/17-09:25:13.087748 c64 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2021/03/17-09:25:13.087753 c64 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2021/03/17-09:25:13.087758 c64       Options.max_sequential_skip_in_iterations: 8
+2021/03/17-09:25:13.087763 c64                    Options.max_compaction_bytes: 1677721600
+2021/03/17-09:25:13.087768 c64                        Options.arena_block_size: 2097152
+2021/03/17-09:25:13.087773 c64   Options.soft_pending_compaction_bytes_limit: 68719476736
+2021/03/17-09:25:13.087778 c64   Options.hard_pending_compaction_bytes_limit: 274877906944
+2021/03/17-09:25:13.087783 c64       Options.rate_limit_delay_max_milliseconds: 100
+2021/03/17-09:25:13.087788 c64                Options.disable_auto_compactions: 0
+2021/03/17-09:25:13.087794 c64                        Options.compaction_style: kCompactionStyleUniversal
+2021/03/17-09:25:13.087800 c64                          Options.compaction_pri: kByCompensatedSize
+2021/03/17-09:25:13.087805 c64 Options.compaction_options_universal.size_ratio: 1
+2021/03/17-09:25:13.087811 c64 Options.compaction_options_universal.min_merge_width: 2
+2021/03/17-09:25:13.087817 c64 Options.compaction_options_universal.max_merge_width: 4294967295
+2021/03/17-09:25:13.087822 c64 Options.compaction_options_universal.max_size_amplification_percent: 200
+2021/03/17-09:25:13.087827 c64 Options.compaction_options_universal.compression_size_percent: -1
+2021/03/17-09:25:13.087832 c64 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2021/03/17-09:25:13.087838 c64 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2021/03/17-09:25:13.087843 c64 Options.compaction_options_fifo.allow_compaction: 0
+2021/03/17-09:25:13.087848 c64 Options.compaction_options_fifo.ttl: 0
+2021/03/17-09:25:13.087853 c64                   Options.table_properties_collectors: 
+2021/03/17-09:25:13.087858 c64                   Options.inplace_update_support: 0
+2021/03/17-09:25:13.087863 c64                 Options.inplace_update_num_locks: 10000
+2021/03/17-09:25:13.087868 c64               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2021/03/17-09:25:13.087873 c64   Options.memtable_huge_page_size: 0
+2021/03/17-09:25:13.087878 c64                           Options.bloom_locality: 0
+2021/03/17-09:25:13.087883 c64                    Options.max_successive_merges: 0
+2021/03/17-09:25:13.087888 c64                Options.optimize_filters_for_hits: 0
+2021/03/17-09:25:13.087893 c64                Options.paranoid_file_checks: 0
+2021/03/17-09:25:13.087898 c64                Options.force_consistency_checks: 0
+2021/03/17-09:25:13.087903 c64                Options.report_bg_io_stats: 0
+2021/03/17-09:25:13.087908 c64                               Options.ttl: 0
+2021/03/17-09:25:13.102355 c64               Options.comparator: leveldb.BytewiseComparator
+2021/03/17-09:25:13.102386 c64           Options.merge_operator: None
+2021/03/17-09:25:13.102392 c64        Options.compaction_filter: None
+2021/03/17-09:25:13.102397 c64        Options.compaction_filter_factory: None
+2021/03/17-09:25:13.102402 c64         Options.memtable_factory: SkipListFactory
+2021/03/17-09:25:13.102407 c64            Options.table_factory: BlockBasedTable
+2021/03/17-09:25:13.102434 c64            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000000000082C690)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000000000847F60
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 52428800
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 0
+  enable_index_compression: 1
+  block_align: 0
+2021/03/17-09:25:13.102441 c64        Options.write_buffer_size: 16777216
+2021/03/17-09:25:13.102446 c64  Options.max_write_buffer_number: 3
+2021/03/17-09:25:13.102451 c64          Options.compression: NoCompression
+2021/03/17-09:25:13.102456 c64                  Options.bottommost_compression: Disabled
+2021/03/17-09:25:13.102461 c64       Options.prefix_extractor: nullptr
+2021/03/17-09:25:13.102466 c64   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2021/03/17-09:25:13.102471 c64             Options.num_levels: 7
+2021/03/17-09:25:13.102476 c64        Options.min_write_buffer_number_to_merge: 1
+2021/03/17-09:25:13.102481 c64     Options.max_write_buffer_number_to_maintain: 0
+2021/03/17-09:25:13.102486 c64            Options.bottommost_compression_opts.window_bits: -14
+2021/03/17-09:25:13.102491 c64                  Options.bottommost_compression_opts.level: 32767
+2021/03/17-09:25:13.102536 c64               Options.bottommost_compression_opts.strategy: 0
+2021/03/17-09:25:13.102545 c64         Options.bottommost_compression_opts.max_dict_bytes: 0
+2021/03/17-09:25:13.102550 c64         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2021/03/17-09:25:13.102555 c64                  Options.bottommost_compression_opts.enabled: false
+2021/03/17-09:25:13.102560 c64            Options.compression_opts.window_bits: -14
+2021/03/17-09:25:13.102565 c64                  Options.compression_opts.level: 32767
+2021/03/17-09:25:13.102570 c64               Options.compression_opts.strategy: 0
+2021/03/17-09:25:13.102575 c64         Options.compression_opts.max_dict_bytes: 0
+2021/03/17-09:25:13.102580 c64         Options.compression_opts.zstd_max_train_bytes: 0
+2021/03/17-09:25:13.102585 c64                  Options.compression_opts.enabled: false
+2021/03/17-09:25:13.102590 c64      Options.level0_file_num_compaction_trigger: 4
+2021/03/17-09:25:13.102595 c64          Options.level0_slowdown_writes_trigger: 20
+2021/03/17-09:25:13.102600 c64              Options.level0_stop_writes_trigger: 36
+2021/03/17-09:25:13.102605 c64                   Options.target_file_size_base: 67108864
+2021/03/17-09:25:13.102611 c64             Options.target_file_size_multiplier: 1
+2021/03/17-09:25:13.102615 c64                Options.max_bytes_for_level_base: 268435456
+2021/03/17-09:25:13.102621 c64 Options.level_compaction_dynamic_level_bytes: 0
+2021/03/17-09:25:13.102626 c64          Options.max_bytes_for_level_multiplier: 10.000000
+2021/03/17-09:25:13.102632 c64 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2021/03/17-09:25:13.102637 c64 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2021/03/17-09:25:13.102642 c64 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2021/03/17-09:25:13.102647 c64 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2021/03/17-09:25:13.102652 c64 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2021/03/17-09:25:13.102657 c64 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2021/03/17-09:25:13.102663 c64 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2021/03/17-09:25:13.102670 c64       Options.max_sequential_skip_in_iterations: 8
+2021/03/17-09:25:13.102677 c64                    Options.max_compaction_bytes: 1677721600
+2021/03/17-09:25:13.102684 c64                        Options.arena_block_size: 2097152
+2021/03/17-09:25:13.102689 c64   Options.soft_pending_compaction_bytes_limit: 68719476736
+2021/03/17-09:25:13.102694 c64   Options.hard_pending_compaction_bytes_limit: 274877906944
+2021/03/17-09:25:13.102699 c64       Options.rate_limit_delay_max_milliseconds: 100
+2021/03/17-09:25:13.102704 c64                Options.disable_auto_compactions: 0
+2021/03/17-09:25:13.102710 c64                        Options.compaction_style: kCompactionStyleUniversal
+2021/03/17-09:25:13.102716 c64                          Options.compaction_pri: kByCompensatedSize
+2021/03/17-09:25:13.102721 c64 Options.compaction_options_universal.size_ratio: 1
+2021/03/17-09:25:13.102726 c64 Options.compaction_options_universal.min_merge_width: 2
+2021/03/17-09:25:13.102731 c64 Options.compaction_options_universal.max_merge_width: 4294967295
+2021/03/17-09:25:13.102736 c64 Options.compaction_options_universal.max_size_amplification_percent: 200
+2021/03/17-09:25:13.102742 c64 Options.compaction_options_universal.compression_size_percent: -1
+2021/03/17-09:25:13.102747 c64 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2021/03/17-09:25:13.102752 c64 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2021/03/17-09:25:13.102757 c64 Options.compaction_options_fifo.allow_compaction: 0
+2021/03/17-09:25:13.102762 c64 Options.compaction_options_fifo.ttl: 0
+2021/03/17-09:25:13.102767 c64                   Options.table_properties_collectors: 
+2021/03/17-09:25:13.102772 c64                   Options.inplace_update_support: 0
+2021/03/17-09:25:13.102777 c64                 Options.inplace_update_num_locks: 10000
+2021/03/17-09:25:13.102783 c64               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2021/03/17-09:25:13.102789 c64   Options.memtable_huge_page_size: 0
+2021/03/17-09:25:13.102794 c64                           Options.bloom_locality: 0
+2021/03/17-09:25:13.102799 c64                    Options.max_successive_merges: 0
+2021/03/17-09:25:13.102804 c64                Options.optimize_filters_for_hits: 0
+2021/03/17-09:25:13.102809 c64                Options.paranoid_file_checks: 0
+2021/03/17-09:25:13.102814 c64                Options.force_consistency_checks: 0
+2021/03/17-09:25:13.102819 c64                Options.report_bg_io_stats: 0
+2021/03/17-09:25:13.102824 c64                               Options.ttl: 0
